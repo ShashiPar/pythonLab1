@@ -1,13 +1,13 @@
 import math
 
 def calculate_triangle_area(a, b, c):
-  """Calculates the area of a triangle using Heron's formula."""
+
   s = (a + b + c) / 2
   area = math.sqrt(s * (s - a) * (s - b) * (s - c))
   return area
 
 def main():
-  """Calculates the total area and contribution of two triangles."""
+
  
   side1_triangle1 = float(input("Enter side 1 of triangle 1: "))
   side2_triangle1 = float(input("Enter side 2 of triangle 1: "))
